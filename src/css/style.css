@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url('../font/Raleway-Black.eot');
+    src: local('../font/Raleway Black'), local('../font/Raleway-Black'),
+        url('../font/Raleway-Black.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-Black.woff') format('woff'),
+        url('../font/Raleway-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraLight';
+    src: url('../font/Raleway-ExtraLight.eot');
+    src: local('../font/Raleway ExtraLight'), local('../font/Raleway-ExtraLight'),
+        url('../font/Raleway-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-ExtraLight.woff') format('woff'),
+        url('../font/Raleway-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url('../font/Raleway-Medium.eot');
+    src: local('../font/Raleway Medium'), local('../font/Raleway-Medium'),
+        url('../font/Raleway-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-Medium.woff') format('woff'),
+        url('../font/Raleway-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-LightItalic';
+    src: url('../font/Raleway-LightItalic.eot');
+    src: local('../font/Raleway Light Italic'), local('../font/Raleway-LightItalic'),
+        url('../font/Raleway-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-LightItalic.woff') format('woff'),
+        url('../font/Raleway-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Raleway-ThinItalic';
+    src: url('../font/Raleway-ThinItalic.eot');
+    src: local('../font/Raleway Thin Italic'), local('../font/Raleway-ThinItalic'),
+        url('../font/Raleway-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-ThinItalic.woff') format('woff'),
+        url('../font/Raleway-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBoldItalic';
+    src: url('../font/Raleway-SemiBoldItalic.eot');
+    src: local('../font/Raleway SemiBold Italic'), local('../font/Raleway-SemiBoldItalic'),
+        url('../font/Raleway-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-SemiBoldItalic.woff') format('woff'),
+        url('../font/Raleway-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url('../font/Raleway-ExtraBold.eot');
+    src: local('../font/Raleway ExtraBold'), local('../font/Raleway-ExtraBold'),
+        url('../font/Raleway-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../font/Raleway-ExtraBold.woff') format('woff'),
+        url('../font/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.header {
+	background-color: grey;
+}
+
+.navbar-nav {
+	width: 100%;
+	justify-content: space-around;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Raleway-ThinItalic';
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.about {
+	background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,168,152,1) 53%, rgba(0,212,255,1) 100%);
+}
+
+h1 {
+	color: white;
+	font-family: 'Raleway-ExtraBold';
+	text-align: center;
+}
+
+.photo_1 {
+	margin: 40px;
+	float: left;
+	vertical-align: middle;
+}
+
+.about-text {
+	display: inline-block;
+	margin-left: 40px;
+	font-family: 'Raleway-Black';
+	font-size: 20px;
+	color: white;
+	line-height: 2;
+}
+
+.project {
+	background: black;
+}
+
+.card-name {
+    color: white;
+    font-family: 'Raleway-ExtraBold';
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.project .card {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card-project .card-body {
+	height: 30px;
+	padding: 0;
+}
+
+.card-project .card-body .card-title {
+	font-family: 'Raleway-SemiBoldItalic';
+}
+
+.price {
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(49,159,13,1) 100%);
+	font-family: 'Raleway-Medium';
+}
+
+.price h2 {
+	text-align: center;
+}
+
+.table {
+	margin: 0px;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(49,159,13,1) 100%);
+}
+
+.table-info {
+	color: black;
+}
+
+.newinfo {
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(204,84,103,1) 0%, rgba(252,176,69,1) 100%);
+}
+
+.card-newinfo {
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card-body .card-title {
+	text-align: center;
+	font-family: 'Raleway-LightItalic';
+}
+
+.card-text {
+	font-family: 'Raleway-ExtraLight';
+}
+
+.btn-secondary {
+	width: 100%;
+	font-family: 'Raleway-Medium';
+	font-size: 25px;
+	padding: 2px;
+}
+
+.footer {
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 47%, rgba(56,71,212,0.9850140739889706) 100%);
+}
+
+.footer a {
+	color: black;
+}
+
+.contact-title {
+    color: black;
+    font-family: 'Raleway-Medium';
+}
+
+.text-small {
+    font-family: 'Raleway-ThinItalic';
+    font-size: 20px;
+}
+
+.social {
+	text-align: right;
+}
+
+.fa-vk {
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+.fa-odnoklassniki-square {
+	font-size: 30px;
+}
+
+
+
