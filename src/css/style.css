@@ -84,12 +84,8 @@
     font-style: normal;
 }
 
-a {
+a, a:hover, a:focus, a:active {
     text-decoration: none;
-}
-
-a:hover {
-	text-decoration: none;
 }
 
 .header {
@@ -165,6 +161,7 @@ h1 {
 }
 
 .price h2 {
+    color: #ffffff;
 	text-align: center;
 }
 
@@ -225,7 +222,7 @@ h1 {
 	text-align: right;
 }
 
-.fa-vk {
+.fa-whatsapp-square {
 	font-size: 30px;
 	margin-right: 40px;
 }
