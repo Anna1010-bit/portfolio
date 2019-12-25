@@ -1,0 +1,364 @@
+@font-face {
+font-family: 'Montserrat Light';
+src: url('../font/Montserrat-Light.eot');
+src: url('../font/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+url('../font/Montserrat-Light.woff') format('woff'),
+url('../font/Montserrat-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Montserrat Semibold';
+src: url('../font/Montserrat-SemiBold.eot');
+src: url('../font/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('../font/Montserrat-SemiBold.woff') format('woff'),
+url('../font/Montserrat-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Montserrat Medium';
+src: url('../font/Montserrat-Medium.eot');
+src: url('../font/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+url('../font/Montserrat-Medium.woff') format('woff'),
+url('../font/Montserrat-Medium.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+.header {
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/template/main_bg.jpg);
+	height: 900px;
+	width: 100%;
+}
+
+#navbarSupportedContent {
+	justify-content: flex-end;
+}
+
+.navbar-nav {
+	margin-right: 401px;
+}
+
+.nav-item {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	padding-right: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #ffffff;
+}
+
+.head-body {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 219px;
+}
+
+.head-text {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.head-title {
+	width: 829px;
+	font-family: 'Montserrat Semibold';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 64px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#btn-head-body {
+	width: 200px;
+	height: 45px;
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 30px;
+	color: #FFFFFF;
+	margin-top: 50px;
+	padding-top: 10px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.service-body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.service-title {
+	width: 739.66px;
+	margin-top: 110px;
+	font-family: 'Montserrat Medium';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	color: #323232;
+}
+
+.service-text {
+	width: 730.66px;
+	margin-top: 50px;
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #999999;
+}
+
+.service-card {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 70px;
+}
+
+.service-card-img {
+	border: 1px solid #4985FF;
+	border-radius: 100%;
+	width: 90.08px;
+	height: 90px;
+	margin-right: 28px;
+	padding: 23px;
+	float: left;
+}
+
+.project_ellips {
+	width: 40.04px;
+	height: 40px;
+}
+
+.services_item {
+	display: flex;
+	flex-direction: column;
+	margin-top: 33px;
+}
+
+.service-card-title {
+	width: 226.2px;
+	font-family: 'Montserrat Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	color: #000000;
+	text-align: left;
+}
+
+.service-card-text {
+	width: 222.2px;
+	height: 58px;
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 22px;
+	color: #999999;
+	text-align: left;
+}
+
+#btn-service-card {
+	width: 200.18px;
+	height: 45px;
+	margin: 0 auto;
+	margin-top: 55px;
+	margin-bottom: 139px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.all-services {
+	position: relative;
+	width: 100%;
+	text-align: left;
+}
+
+.all-services-bg {
+	position: absolute;
+	background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4; 
+	width: 100%;
+	height: 450px;
+	top: 0;
+}
+
+.all-services-body {
+	display: flex;
+	justify-content: space-between;
+}
+
+.all-services-title {
+	width: 540px;
+	margin-top: 99.75px;
+	font-family: 'Montserrat Semibold';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	color: #FFFFFF;
+}
+
+.all-services-btn {
+	width: 200px;
+	height: 44.89px;
+	margin-top: 119px;
+	background: #4985FF;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 30px;
+	color: #FFFFFF;
+}
+
+.card-deck {
+	margin-bottom: 87px;
+}
+
+.card {
+	margin-top: 69.83px;
+	border-radius: 10px;
+}
+
+.card-title {
+	font-family: 'Montserrat Medium';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.card-num {
+	padding-right: 5px;
+	color: #4985FF;
+}
+
+.card-text {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	color: #999999;
+}
+
+.card-info {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	text-decoration-line: underline;
+	color: #4985FF;
+}
+
+.footer {
+	width: 100%;
+	height: 75px;
+}
+
+.footer-text {
+	font-family: 'Montserrat Light';
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	color: #999999;
+}
+
+/*md*/
+@media (max-width: 991.99px) {
+	.head-title {
+		padding: 0 30px 0 30px;
+	}
+
+	.service-body {
+		margin-bottom: 50px;
+	}
+
+	.service-card {
+    	flex-direction: column;
+    	justify-content: center;
+    	align-items: center;
+	}
+}
+
+/*sm*/
+@media (max-width: 767.99px) {
+	.head-title {
+		width: 100%;
+	}
+
+	.service-card {
+		margin: 0 auto;
+	}
+
+	.service-title {
+		width: 100%;
+	}
+
+	.service-text {
+		width: 100%;
+	}
+}
+
+/*sx*/
+@media (max-width: 575.99px) {
+	.service-card {
+		margin: 0 auto;
+	}
+
+	.all-services-body {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.all-services-title {
+		width: 100%;
+		font-size: 34px;
+		text-align: center;
+	}
+}
