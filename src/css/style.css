@@ -253,19 +253,24 @@ h1 {
 
 @media (max-width: 767.99px) {
     .about {
+        display: flex;
+        flex-direction: column;
         text-align: center;
     }
 
     .about-title {
-        display: inline;
-        width: 50%;
+        display: inline-block;
+        text-align: center;
+        font-size: 35px;
     }
 
     .photo_1 {
-        float: left;
+        float: none;
     }
 
     .about-text {
-        width: 50%;
+       width: 100%;
+       text-align: center;
+       margin: 0;
     }
 }
